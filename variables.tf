@@ -7,5 +7,5 @@ variable "cidr_block" {
 variable "vpc_id" {
 
 description = "vpc id reference for subnet"
-type = string
+type = "string"
 }
