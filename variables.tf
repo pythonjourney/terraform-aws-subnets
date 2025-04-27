@@ -1,4 +1,11 @@
 variable "cidr_block" {
-    default = "10.0.5.0/24"
+    description = "cidr for vpc"
+    type = "string"
   
+}
+
+variable "vpc_id" {
+
+description = "vpc id reference for subnet"
+type = string
 }
